@@ -1,7 +1,7 @@
 # home-manager-config
 
 
-multi-user installation
+install nix multi-user installation
 
 ```bash
 sh <(curl -L https://nixos.org/nix/install) --daemon
