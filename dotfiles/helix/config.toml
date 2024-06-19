@@ -1,0 +1,43 @@
+# theme = "dark_plus"
+theme = "dark_plus_and_status"
+
+[editor]
+line-number = "relative"
+mouse = false
+bufferline = "always"
+color-modes = true
+lsp.display-inlay-hints = false
+popup-border = "all"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.indent-guides]
+render = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.soft-wrap]
+enable = true
+# wrap-indicator = ""  # set wrap-indicator to "" to hide it
+
+[keys.normal]
+# C-s = ":w"
+L = "goto_next_buffer"
+H = "goto_previous_buffer"
+Y = "yank_to_clipboard"
+
+[keys.select]
+Y = "yank_to_clipboard"
+
+[keys.normal.g]
+k = "goto_prev_change"
+j = "goto_next_change"

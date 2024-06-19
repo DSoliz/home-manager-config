@@ -1,0 +1,122 @@
+# Author: Shafkath Shuhan <shafkathshuhannyc@gmail.com>
+
+"attribute" = { fg = "fn_declaration" }
+"comment" = { fg = "dark_green" }
+"constant" = { fg = "constant" }
+"constant.builtin" = { fg = "blue2" }
+"constant.character" = { fg = "orange" }
+"constant.character.escape" = { fg = "gold" }
+"constant.numeric" = { fg = "pale_green" }
+"constructor" = { fg = "type" }
+"diagnostic" = { underline = { color = "gold", style = "curl" } }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"diff.delta" = { fg = "blue4" }
+"diff.minus" = { fg = "orange_red" }
+"diff.plus" = { fg = "dark_green2" }
+"error" = { fg = "red" }
+"function" = { fg = "fn_declaration" }
+"function.builtin" = { fg = "fn_declaration" }
+"function.macro" = { fg = "blue2" }
+"hint" = { fg = "light_gray3" }
+"info" = { fg = "light_blue" }
+"keyword" = { fg = "blue2" }
+"keyword.control" = { fg = "special" }
+"keyword.directive" = { fg = "blue2" }
+"label" = { fg = "blue2" }
+"markup.bold" = { fg = "blue2", modifiers = ["bold"] }
+"markup.heading" = { fg = "blue2", modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.text" = "orange"
+"markup.link.url" = { modifiers = ["underlined"] }
+"markup.list" = "blue3"
+"markup.quote" = "dark_green"
+"markup.raw" = "orange"
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"module" = { fg = "type" }
+"namespace" = { fg = "type" }
+"operator" = { fg = "text" }
+"punctuation" = { fg = "text" }
+"punctuation.delimiter" = { fg = "text" }
+"special" = { fg = "text" }
+"string" = { fg = "orange" }
+"string.regexp" = { fg = "gold" }
+"tag" = "blue2"
+"type" = { fg = "type" }
+"type.builtin" = { fg = "type" }
+"type.enum.variant" = { fg = "constant" }
+"ui.background" = { fg = "light_gray", bg = "dark_gray2" }
+"ui.bufferline" = { fg = "text", bg = "widget" }
+"ui.bufferline.active" = { fg = "white", bg = "blue" }
+"ui.bufferline.background" = { bg = "background" }
+"ui.cursor" = { fg = "cursor", modifiers = ["reversed"] }
+"ui.cursor.match" = { bg = "#3a3d41", modifiers = ["underlined"] }
+"ui.cursor.primary" = { fg = "cursor", modifiers = ["reversed"] }
+"ui.cursorline.primary" = { bg = "dark_gray3" }
+"ui.help" = { fg = "text", bg = "widget" }
+"ui.linenr" = { fg = "dark_gray" }
+"ui.linenr.selected" = { fg = "light_gray2" }
+"ui.menu" = { fg = "text", bg = "widget" }
+"ui.menu.selected" = { bg = "dark_blue2" }
+"ui.popup" = { fg = "text", bg = "widget" }
+"ui.selection" = { bg = "#3a3d41" }
+"ui.selection.primary" = { bg = "dark_blue" }
+"ui.statusline" = { fg = "white", bg = "blue" }
+"ui.statusline.inactive" = { fg = "white", bg = "blue" }
+"ui.statusline.insert" = { fg = "white", bg = "green" }
+"ui.statusline.select" = { fg = "white", bg = "gold2" }
+"ui.text" = { fg = "text" }
+"ui.text.focus" = { fg = "white" }
+"ui.virtual.indent-guide" = { fg = "dark_gray4" }
+"ui.virtual.inlay-hint" = { fg = "dark_gray5"}
+"ui.virtual.ruler" = { bg = "borders" }
+"ui.virtual.whitespace" = { fg = "dark_gray" }
+"ui.virtual.jump-label" = { fg = "black", bg = "yellow", modifiers = ["bold"] }
+"ui.window" = { bg = "widget" }
+"variable" = { fg = "variable" }
+"variable.builtin" = { fg = "blue2" }
+"variable.other.member" = { fg = "variable" }
+"variable.parameter" = { fg = "variable" }
+"warning" = { fg = "gold2" }
+
+[palette]
+white = "#ffffff"
+black = "#111111"
+orange = "#ce9178"
+yellow = "#ffff00"
+gold = "#d7ba7d"
+gold2 = "#cca700"
+pale_green = "#b5cea8"
+dark_green = "#6A9955"
+dark_green2 = "#299234"
+light_gray = "#d4d4d4"
+light_gray2 = "#c6c6c6"
+light_gray3 = "#eeeeee"
+dark_gray = "#858585"
+dark_gray2 = "#1e1e1e"
+dark_gray3 = "#282828"
+dark_gray4 = "#404040"
+dark_gray5 = "#8b949e"
+blue = "#007acc"
+blue2 = "#569CD6"
+blue3 = "#6796E6"
+blue4 = "#1b81a8"
+light_blue = "#75beff"
+dark_blue = "#264f78"
+dark_blue2 = "#094771"
+dark_red = "#eb343c"
+red = "#ff1212"
+orange_red = "#f14c4c"
+
+type = "#4EC9B0"
+special = "#C586C0"
+variable = "#9CDCFE"
+fn_declaration = "#DCDCAA"
+constant = "#4FC1FF"
+
+background = "#1e1e1e"
+text = "#d4d4d4"
+cursor = "#a6a6a6"
+widget = "#252526"
+borders = "#323232"

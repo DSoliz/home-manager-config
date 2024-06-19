@@ -1,0 +1,49 @@
+[language-server.typescript-language-server]
+command = "typescript-language-server"
+args = ["--stdio"]
+config.hostInfo = "helix"
+
+[language-server.eslint]
+args = ["--stdio"]
+command = "vscode-eslint-language-server"
+
+[language-server.eslint.config]
+format = true
+nodePath = ""
+onIgnoredFiles = "off"
+packageManager = "npm"
+quiet = false
+rulesCustomizations = []
+run = "onType"
+useESLintClass = false
+validate = "on"
+codeAction = { disableRuleComment = { enable = true, location = "separateLine" }, showDocumentation = { enable = true } }
+codeActionOnSave = { enable = true, mode = "all" }
+experimental = { }
+problems = { shortenToSingleLine = false }
+# workingDirectory = { mode = "location" }
+# workingDirectories = [{ directory = "front", changeProcessCWD = true }, { directory = "server", changeProcessCWD = true }]
+
+[[language]]
+name = "typescript"
+auto-format = true
+language-servers = [
+  { name = "typescript-language-server", except-features = ["format"] },
+  "eslint"
+]
+roots = [
+  # "package-lock.json",
+  "package.json",
+]
+
+[[language]]
+name = "javascript"
+auto-format = true
+language-servers = [
+  { name = "typescript-language-server", except-features = ["format"] },
+  "eslint"
+]
+roots = [
+  # "package-lock.json",
+  "package.json",
+]
