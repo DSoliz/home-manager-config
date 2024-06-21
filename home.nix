@@ -17,13 +17,15 @@
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
-  home.packages = [
-    pkgs.nodejs_22
-    pkgs.helix
-    pkgs.git
-    pkgs.zellij
-    pkgs.zsh
-    pkgs.alacritty
+  home.packages = with pkgs; [
+    nodejs_22
+    helix
+    git
+    zellij
+    zsh
+    alacritty
+    htop
+    curl
     
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
@@ -91,6 +93,7 @@
       "z"
       "history"
       "git"
+      "vi-mode"
     ];
     theme = "miloshadzic";
   };
